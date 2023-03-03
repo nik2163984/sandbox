@@ -30,8 +30,10 @@ public class GenericUsage {
                 .boxed()
                 .collect(Collectors.toList());
 
-        for(Integer i : numbers) {
-            new Box(i);
-        }
+        System.out.println(numbers);
+
+        numbers.forEach(number -> crate2.addBox(new Box<>(number)));
+
+        System.out.println(crate2);
     }
 }
