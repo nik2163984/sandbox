@@ -45,15 +45,15 @@ public class ShuntingYard {
             }
 
             if(isRightParenthesis(token)) {
-                while() {
+                /*while() {
 
-                }
+                }*/
             }
         }
 
-        while() {
+        /*while() {
 
-        }
+        }*/
 
         String postFix = "";
         return postFix;
